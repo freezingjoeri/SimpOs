@@ -57,7 +57,7 @@ ook op de meeste andere Debian‑achtige distro’s.
 2. Haal SimpOs binnen en start het install‑script:
 
    ```bash
-   git clone https://github.com/freezingjoeri/SimpOs ~/SimpleOs
+   git clone https://github.com/freezingjoeri/SimpOs
    cd ~/SimpleOs
    bash install_linux.sh
    ```
@@ -220,4 +220,5 @@ The code already reserves commands and structure for:
 
 You can add new commands by registering them in
 `CommandParser._register_builtin_commands()` and implementing their handlers.
+
 
