@@ -7,5 +7,6 @@
 
               SimpOs Terminal System
 
-                  --- v0.1 Alpha ---
+                  --- v0.0.1 Alpha ---
+
 
