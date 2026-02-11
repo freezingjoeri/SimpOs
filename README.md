@@ -262,3 +262,17 @@ The code already reserves commands and structure for:
 You can add new commands by registering them in
 `CommandParser._register_builtin_commands()` and implementing their handlers.
 
+
+
+
+
+ubuntu server:
+als het niet werkt zoals het hier boven staat doe dan dit:
+
+cd SimpOs/SimpleOs
+sed -i 's/\r$//' install_linux.sh
+chmod +x install_linux.sh
+./install_linux.sh
+daarna reboot
+
+
